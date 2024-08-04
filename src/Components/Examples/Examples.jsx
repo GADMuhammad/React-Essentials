@@ -29,7 +29,7 @@ export default function Examples() {
             isSelected={selectedButton === concept.title.toLowerCase()}
             onClick={() => setSelectedButton(concept.title.toLowerCase())}
           >
-            {concept.title.toUpperCase()}
+            {concept.title}
           </TabButton>
         ))}
       >
